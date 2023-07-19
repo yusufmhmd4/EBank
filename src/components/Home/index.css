@@ -1,0 +1,44 @@
+.apps-container {
+  background-color: #152850;
+  height: 100vh;
+  padding: 2px;
+  margin: 0;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto 0px;
+}
+.logo {
+  width: 140px;
+}
+.content-container {
+  width: 80%;
+  margin: 10px auto 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.card {
+  margin: 20px auto;
+}
+.log-out-button {
+  height: 40px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 2px;
+  padding: 5px 20px;
+  cursor: pointer;
+  outline: none;
+}
